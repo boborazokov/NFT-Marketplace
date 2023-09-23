@@ -1,0 +1,229 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #2B2B2B;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  width: Fill 1, 280px;
+  height: Hug 100px;
+  padding: 20px, 50px, 20px, 50px;
+  justify-content: space-between;
+  display: flex;
+  margin: 30px;
+  line-height: 58px;
+}
+header div {
+  display: inherit;
+}
+header h3 {
+  font-family: Georgia, serif;
+  font-style: normal;
+  letter-spacing: 1px;
+  @import url("https://fonts.googleapis.com/css2? Family= Playfair+Display:wght@900 & display=swap");
+}
+
+.button_nav_1 {
+  width: 152px;
+  height: 60px;
+  padding: 0px 20px 0px 20px;
+  border-radius: 20px;
+  gap: 12px;
+  background: #A259FF;
+  color: white;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.header_left_logo {
+  width: Hug 243.41px;
+  height: Hug 32px;
+  gap: 10px;
+  align-items: center;
+}
+.header_left_logo img {
+  width: 40px;
+  height: 40px;
+}
+
+.header_right_links {
+  display: flex;
+  justify-content: baseline;
+  gap: 50px;
+}
+
+.Hero_section {
+  width: 1050px;
+  margin: 100px auto;
+}
+
+.Hero_section_Frame {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.Headline_Subhead h1 {
+  font-family: Work Sans;
+  font-size: 67px;
+  font-weight: 600;
+  line-height: 74px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.Headline_Subhead p {
+  font-family: Work Sans;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.button_main_raket {
+  margin: 30px 0px;
+  width: 185px;
+  height: 48px;
+  border-radius: 15px;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  background: #A259FF;
+}
+
+.Additional_Infi {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.Frame {
+  height: 80px;
+  background: #3B3B3B;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.Frame h3 {
+  margin-left: 10px;
+}
+.Frame div {
+  display: flex;
+  margin: 10px 0px;
+}
+.Frame div img {
+  margin: 0px 10px;
+}
+
+.Section_headline {
+  margin: 30px 0px;
+}
+.Section_headline h2 {
+  font-family: Work Sans;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 46px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.Section_headline p {
+  font-family: Work Sans;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.Treding_collection {
+  width: 950px;
+  margin: auto;
+}
+
+.collection_card_row {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  justify-content: space-around;
+}
+.collection_card_row img {
+  width: 280px;
+  height: 330px;
+  border-radius: 20px;
+}
+.collection_card_row .Avatar_size {
+  display: flex;
+  gap: 10px;
+}
+.collection_card_row .Avatar_size img {
+  width: 20px;
+  height: 20px;
+}
+.collection_card_row h1 {
+  font-family: Work Sans;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.Top_Rated_Artist {
+  width: 960px;
+  margin: 100px auto;
+}
+
+.Section_Headline_Button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.View_Rankings_button .View_button {
+  width: 185px;
+  height: 48px;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  background: inherit;
+  border: solid #A259FF;
+  margin: 30px 0px;
+}
+
+.Artist_Cards_grid {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: auto auto auto auto;
+  font-size: smaller;
+}
+.Artist_Cards_grid div {
+  background: #3B3B3B;
+  width: Fill 240px;
+  height: Hug 238px;
+  padding: 20px;
+  border-radius: 20px;
+  gap: 20px;
+}
+.Artist_Cards_grid div div {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
