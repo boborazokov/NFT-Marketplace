@@ -53,6 +53,7 @@ header h3 {
 .header_left_logo {
   width: Hug 243.41px;
   height: Hug 32px;
+  display: flex;
   gap: 10px;
   align-items: center;
 }
@@ -224,6 +225,307 @@ header h3 {
 }
 .Artist_Cards_grid div div {
   text-align: center;
+}
+
+.Brows_cotegories {
+  margin: 100px 0px;
+}
+
+.Category_Cards_Grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 30px;
+}
+.Category_Cards_Grid div img {
+  width: 220px;
+  height: 220px;
+  border-radius: 20px, 20px, 0px, 0px;
+}
+.Category_Cards_Grid div div {
+  width: Fill 220px;
+  height: 56px;
+  padding: 20px, 30px, 25px, 30px;
+  background: #3B3B3B;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.Category_Cards_Grid div div h2 {
+  padding: 10px 20px;
+}
+
+.Discovery_more_NFTs {
+  margin-top: 100px;
+}
+
+.NFT_Cards_Row {
+  width: Fill 330px;
+  height: Fixed 469px;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+.NFT_Cards_Row img {
+  width: 310px;
+}
+.NFT_Cards_Row .NFT_info {
+  background: #3B3B3B;
+  width: 310px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.avatar_info_img {
+  display: flex;
+  justify-content: baseline;
+}
+.avatar_info_img p {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.avatar_info_img img {
+  width: 30px;
+  height: 30px;
+}
+
+.additional_info {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.additional_info span {
+  font-family: Space Mono;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #858584;
+}
+.additional_info h5 {
+  font-family: cursive;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.contaner_img {
+  padding: 10px 20px;
+}
+
+.Artst_Info div {
+  margin: 10px 0px;
+}
+
+.NFT_Highhight {
+  background: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, #A259FF 100%);
+  width: 100%;
+  height: 80vh;
+  background-size: 100%;
+  position: absolute;
+  left: 0px;
+}
+
+.Artist_card {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: 50px;
+}
+.Artist_card div {
+  display: flex;
+  justify-content: baseline;
+}
+.Artist_card div p {
+  margin-left: 10px;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.Artist_card h2 {
+  font-family: Work Sans;
+  font-size: 51px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.Artist_card button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 198px;
+  height: 60px;
+  padding: 22px, 50px, 22px, 50px;
+  border-radius: 20px;
+  gap: 12px;
+  color: #2B2B2B;
+}
+
+.Frame_240 {
+  display: flex;
+  justify-content: space-around;
+  margin: 300px 100px;
+}
+
+.Auction_timer {
+  width: 295px;
+  height: 144px;
+  padding: 30px;
+  border-radius: 20px;
+  gap: 10px;
+  background: rgba(59, 59, 59, 0.5019607843);
+}
+.Auction_timer h5 {
+  font-family: Space Mono;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.Auction_timer div {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+.Auction_timer div div {
+  display: block;
+}
+.Auction_timer div div h3 {
+  font-family: Space Mono;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.Auction_timer div div p {
+  font-family: Space Mono;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.How_it_works {
+  margin-top: 800px;
+}
+
+.Card_rows {
+  display: flex;
+  justify-content: space-between;
+}
+.Card_rows div {
+  width: 270px;
+  height: 389px;
+  padding: 10px, 30px, 30px, 30px;
+  border-radius: 20px;
+  gap: 20px;
+  background: #3B3B3B;
+}
+.Card_rows h2 {
+  font-family: Work Sans;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.Card_rows p {
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.Subscribe_widget {
+  margin-top: 100px;
+  width: Fixed 1, 50px;
+  height: Hug 430px;
+  padding: 60px;
+  border-radius: 20px;
+  gap: 80px;
+  display: flex;
+  justify-content: space-around;
+  background: #3B3B3B;
+}
+.Subscribe_widget div {
+  margin-top: 20px;
+}
+.Subscribe_widget div h1 {
+  font-family: Work Sans;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 46px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.Subscribe_widget div p {
+  font-family: Work Sans;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.Subscribe_Form {
+  background: white;
+  width: 355px;
+  border-radius: 20px;
+}
+.Subscribe_Form input {
+  width: 225px;
+  height: 60px;
+  padding: 16px, 0px, 16px, 20px;
+  border-radius: 20px;
+  gap: 12px;
+  border: none;
+}
+.Subscribe_Form button {
+  width: 125px;
+  height: 60px;
+  padding: 16px, 0px, 16px, 20px;
+  border-radius: 20px;
+  gap: 12px;
+  background: #A259FF;
+}
+
+footer .footer_info {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+  background: #3B3B3B;
+}
+footer p {
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #CCCCCC;
+  margin: 20px 0px;
+}
+footer h3 {
+  font-family: Space Mono;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 20px;
+}
+
+hr {
+  width: 1250px;
+  margin: -50px auto;
 }
 
 /*# sourceMappingURL=style.css.map */
