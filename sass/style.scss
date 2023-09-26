@@ -35,7 +35,7 @@ header{
 .button_nav_1{
     width: 152px;
     height:60px;
-    padding: 0px 20px 0px 20px;
+    padding: 18px 20px 18px 20px;
     border-radius: 20px;
     gap: 12px;
     background: #A259FF;
@@ -545,4 +545,45 @@ hr{
     width: 1250px;
     margin: -50px auto;
 
+}
+.Create_accout_imput{
+    display: flex;
+    align-items: center;
+    background: white;
+    width: 260px;
+    height: 46px;
+    padding: 16px, 20px, 16px, 20px;
+    border-radius: 20px;
+    border: 1px;
+    gap: 12px;
+    img{
+        margin-left: 20px;
+    }
+    input{
+        border: none;
+        color: black;
+        outline: none;
+    }
+
+}
+.Create_accout_button{
+    width: 260px;
+    height: 46px;
+    padding: 0px, 50px, 0px, 50px;
+    border-radius: 20px;
+    gap: 12px;
+    background: #A259FF;
+
+
+}
+.Create_accout{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.Create_accout_img{
+    img{
+        width: 710px;
+        height: 591px;
+
+    }
 }
