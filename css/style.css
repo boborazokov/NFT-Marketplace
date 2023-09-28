@@ -37,9 +37,8 @@ header h3 {
 .button_nav_1 {
   width: 152px;
   height: 60px;
-  padding: 18px 20px 18px 20px;
+  padding: 15px 20px 15px 20px;
   border-radius: 20px;
-  gap: 12px;
   background: #A259FF;
   color: white;
   font-family: Work Sans;
@@ -99,7 +98,7 @@ header h3 {
 .button_main_raket {
   margin: 30px 0px;
   width: 185px;
-  height: 48px;
+  height: 58px;
   border-radius: 15px;
   font-family: Work Sans;
   font-size: 16px;
@@ -487,6 +486,8 @@ header h3 {
   border-radius: 20px;
   gap: 12px;
   border: none;
+  outline: none;
+  color: black;
 }
 .Subscribe_Form button {
   width: 125px;
@@ -565,6 +566,32 @@ hr {
 .Create_accout_img img {
   width: 710px;
   height: 591px;
+}
+
+.wallet_options {
+  margin-top: 30px;
+  width: 300px;
+  height: 76px;
+  padding: 0px, 20px, 0px, 40px;
+  border-radius: 20px;
+  border: 1px;
+  gap: 20px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background: linear-gradient(0deg, #3B3B3B, #3B3B3B), linear-gradient(0deg, #A259FF, #A259FF);
+  border: 1px solid #A259FF;
+}
+.wallet_options img {
+  padding: 10px 20px;
+}
+.wallet_options h5 {
+  font-family: Work Sans;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 /*# sourceMappingURL=style.css.map */
