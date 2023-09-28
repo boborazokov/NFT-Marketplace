@@ -262,6 +262,8 @@ header{
     margin-top: 100px;
 }
 .NFT_Cards_Row{
+    width: 1050px;
+    margin: 50px auto;
     width: Fill (330px);
     height: Fixed (469px);
     border-radius: 20px;
@@ -617,5 +619,110 @@ linear-gradient(0deg, #A259FF, #A259FF);
         letter-spacing: 0em;
         text-align: left;
 
+    }
+}
+.cover_profile_image{
+    img{
+        width: 100%;
+    }
+}
+.cover_profile_image + div{
+    margin-top: -70px;
+    margin-left: 100px;
+}
+.Artist_info{
+    display: grid;
+    grid-template-columns: auto auto;
+    h3{
+        //styleName: H2 - Work Sans;
+        font-family: Work Sans;
+        font-size: 41px;
+        font-weight: 600;
+        line-height: 56px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    span{
+        //styleName: H5 - Space Mono;
+        font-family: Space Mono;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #858584;
+    }
+    p{
+        //styleName: Body Text- Work Sans;
+        font-family: Work Sans;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 35px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+}
+.Artist_name{
+    width: 599px;
+    height: 377px;
+    gap: 30px;
+    margin: auto;
+
+}
+.button_artist_main{
+    display: flex;
+    
+    button{
+        width: 186px;
+        height: 60px;
+        padding: 0px, 50px, 0px, 50px;
+        border-radius: 20px;
+        gap: 12px;
+        background: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    button:first-child{
+        background: #A259FF;
+
+    }
+}
+.line1{
+    position: absolute;
+    left: 130px;
+}
+.tabs{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    div{
+        width: 350px;
+        height: 60px;
+        padding: 0px, 30px, 0px, 30px;
+        border: 0px, 0px, 2px, 0px;
+        gap: 16px;
+        display: flex;
+
+        h4{
+            font-family: Work Sans;
+            font-size: 22px;
+            font-weight: 600;
+            line-height: 31px;
+            letter-spacing: 0em;
+            text-align: center;
+        }
+    div{
+        width: 50px;
+        height: 32px;
+        padding: 5px, 10px, 5px, 10px;
+        border-radius: 20px;
+        gap: 10px;
+        background: #858584;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }    
     }
 }
