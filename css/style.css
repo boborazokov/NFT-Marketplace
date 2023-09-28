@@ -37,9 +37,8 @@ header h3 {
 .button_nav_1 {
   width: 152px;
   height: 60px;
-  padding: 18px 20px 18px 20px;
+  padding: 15px 20px 15px 20px;
   border-radius: 20px;
-  gap: 12px;
   background: #A259FF;
   color: white;
   font-family: Work Sans;
@@ -99,7 +98,7 @@ header h3 {
 .button_main_raket {
   margin: 30px 0px;
   width: 185px;
-  height: 48px;
+  height: 58px;
   border-radius: 15px;
   font-family: Work Sans;
   font-size: 16px;
